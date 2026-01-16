@@ -21,7 +21,7 @@ This repository contains my notes, code, and projects as I learn to become a dat
 ## Connect With Me
 
 - GitHub: [@Analytic-Abdul](https://github.com/Analytic-Abdul)
-- LinkedIn: [Add your LinkedIn URL here](https://www.linkedin.com/in/abdulbasit-bello-profile/)
+- LinkedIn: [Abdulbasit Bello](https://www.linkedin.com/in/abdulbasit-bello-profile/)
 
 ## Acknowledgments
 
