@@ -32,7 +32,7 @@ A plain-English guide to technical terms in software engineering and Docker.
 | `cd ~` | Go to your HOME folder |
 | `cd /` | Go to ROOT (very top) |
 | `mkdir name` | Create a new folder |
-| `mv` | Move or rename          │
+| `mv` | Move or rename |
 | `rm` | Delete |
 | ` git init  ` | Start tracking a folder |
 | ` git add . ` | Stage changes |
