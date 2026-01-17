@@ -21,7 +21,7 @@ A plain-English guide to technical terms in software engineering and Docker.
 
 ---
 
-## Command Line Navigation
+## Command Line Navigation and Commands
 
 | Command | What It Does |
 |---------|--------------|
@@ -32,6 +32,13 @@ A plain-English guide to technical terms in software engineering and Docker.
 | `cd ~` | Go to your HOME folder |
 | `cd /` | Go to ROOT (very top) |
 | `mkdir name` | Create a new folder |
+| `mv` | Move or rename          │
+| `rm` | Delete |
+| ` git init  ` | Start tracking a folder |
+| ` git add . ` | Stage changes |
+| ` git commit -m "commit message" ` | Save checkpoint (Commit changes) |
+| ` git push  ` | Upload changes to Github |
+| ` git pull  ` | Download changes from Github |
 
 ---
 
