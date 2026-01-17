@@ -1,18 +1,9 @@
 
-╭─── Claude Code v2.1.6 ───────────────────────────────────────────────────────╮
-│                                                    │ Tips for getting        │
-│             Welcome back Claudeskills!             │ started                 │
-│                                                    │ Run /init to create a … │
-│                       ▐▛███▜▌                      │ Note: You have launche… │
-│                      ▝▜█████▛▘                     │ ─────────────────────── │
-│                        ▘▘ ▝▝                       │ Recent activity         │
-│                                                    │ No recent activity      │
-│  Opus 4.5 · Claude Pro · skillsclaude@gmail.com's  │                         │
-│  Organization                                      │                         │
-│              C:\Users\abdulbasitbello              │                         │
-╰──────────────────────────────────────────────────────────────────────────────╯
+ ▐▛███▜▌   Claude Code v2.1.11
+▝▜█████▛▘  Opus 4.5 · Claude Pro
+  ▘▘ ▝▝    C:\Users\abdulbasitbello
 
-❯ I am taking zoomcamp 2026 this is the git repo                            
+> I am taking zoomcamp 2026 this is the git repo                            
   https://github.com/DataTalksClub/data-engineering-zoomcamp help me become 
   a cracked engineer please!                                                
 
@@ -83,9 +74,9 @@
 
   What's your current skill level and which module are you on (or about to start)?
 
-✻ Cooked for 35s
+✻ Worked for 35s
 
-❯ I'm not a skilled developer, all tools except python and sql are new to   
+> I'm not a skilled developer, all tools except python and sql are new to   
   me. i'm on the first module                                               
 
 ● Perfect starting point! Module 1 is foundational - nail this and everything else builds on it. Let me get the specific Module 1 content so I can guide you through it.
@@ -145,9 +136,9 @@
 
   Where are you stuck or what would be most helpful right now?
 
-✻ Sautéed for 30s
+✻ Churned for 30s
 
-❯ I have a lot to learn about software engineering on top of which docker   
+> I have a lot to learn about software engineering on top of which docker   
   benefits. I have learned that there are a lot of terminologies I do not   
   understand their meaning, and I have extracted some key words from Using  
   Notebook LM from the Zoom Camp Module 1 YouTube video. I want you to help 
@@ -482,9 +473,9 @@
   3. Refine the LinkedIn posts further?
   4. Create a downloadable cheat sheet you can reference?
 
-✻ Crunched for 59s
+✻ Worked for 59s
 
-❯ 1. How do I save all of these conversations that me and you are having    
+> 1. How do I save all of these conversations that me and you are having    
   into a file or folder? I'm learning how to work with the command line     
   through you too, as well as understanding all of THIS, sofware            
   engineering and the likes. So I would like to know how I can keep the     
@@ -627,9 +618,9 @@
   ---
   Does that clear it up? And would you like me to save all our notes to a folder?
 
-✻ Baked for 33s
+✻ Brewed for 33s
 
-❯ yes save the notes to a folder but not in my root as you suggested, i     
+> yes save the notes to a folder but not in my root as you suggested, i     
   don't even know what a root is? i've seen it alot too in the video. would 
   i be able to connect this folder to the zoom camp folder like the github  
   repo would i be able to do something like that where all my notes per     
@@ -767,14 +758,14 @@
 
   Once you answer these, we'll do Step 1 together. I won't proceed until you tell me the answers!
 
-✻ Brewed for 32s
+✻ Churned for 32s
 
-❯ $ git --version                                                           
+> $ git --version                                                           
   git version 2.47.1.windows.1                                              
   C:\Users\abdulbasitbello\repos                                            
   ⎿  Interrupted · What should Claude do instead?
 
-❯ i also have a github account Analytic-Abdul 
+> i also have a github account Analytic-Abdul 
 
 ● You're already set up nicely.
 
@@ -844,7 +835,7 @@
 
   I'm waiting for your update!
 
-❯ i used another terminal/powershell, the git one. I was already in another 
+> i used another terminal/powershell, the git one. I was already in another 
   directory there so when i entered the mkdir and string, it created it     
   inside that folder, i checked my file explorer and saw it, so i deleted   
   the folder but i want to use the cli to go back to a folder closer to     
@@ -921,7 +912,7 @@
   ---
   Run those commands and tell me what pwd shows after you're in de-zoomcamp-2026!
 
-❯ /c/Users/abdulbasitbello/repos/de-zoomcamp-2026 i'm in!!! i also          
+> /c/Users/abdulbasitbello/repos/de-zoomcamp-2026 i'm in!!! i also          
   initialized git in the repo too.                                          
 
 ● Let's go! You're doing great.
@@ -962,7 +953,7 @@
 
   Then I'll save your notes into the folder and you'll make your first commit!
 
-❯ i've created the repo on github it showed me this code to connect with    
+> i've created the repo on github it showed me this code to connect with    
   git remote add origin                                                     
   https://github.com/Analytic-Abdul/de-zoomcamp-2026.git                    
   git branch -M main                                                        
@@ -1015,10 +1006,10 @@
 
   Then I'll create the files!
 
-❯ this is what i got 
+> this is what i got 
   ⎿  Interrupted · What should Claude do instead?
 
-❯ origin  https://github.com/Analytic-Abdul/de-zoomcamp-2026.git (fetch)    
+> origin  https://github.com/Analytic-Abdul/de-zoomcamp-2026.git (fetch)    
   origin  https://github.com/Analytic-Abdul/de-zoomcamp-2026.git (push)     
   explain then do then create the notes                                     
 
@@ -1048,14 +1039,11 @@
 ● Bash(mkdir -p /c/Users/abdulbasitbello/repos/de-zoomcamp-2026/module-1)
   ⎿  (No content)
 
-● Write(repos\de-zoomcamp-2026\README.md)
-  ⎿  Error: Interrupted by user
-
 ● Write(repos\de-zoomcamp-2026\module-1\glossary.md)
   ⎿  Error: Interrupted by user
   ⎿  Interrupted · What should Claude do instead?
 
-❯ continue 
+> continue 
 
 ● Continuing - creating all the files now.
 
@@ -1069,29 +1057,6 @@
       4 This repository contains my notes, code, and projects as I learn 
         to become a data engineer.
       5 ## Course Modules
-
-● Write(repos\de-zoomcamp-2026\module-1\glossary.md)
-  ⎿  Wrote 1 lines to repos\de-zoomcamp-2026\module-1\glossary.md        
-      1 # Module 1: Technical Glossary
-      2 A plain-English guide to technical terms in software engineering 
-        and Docker.
-      3 ---
-      4 ## General Computer Basics
-      5 | Term | Explanation |
-      6 |------|-------------|
-
-● Write(repos\de-zoomcamp-2026\module-1\docker-architecture.md)
-  ⎿  Wrote 1 lines to                                                    
-     repos\de-zoomcamp-2026\module-1\docker-architecture.md
-      1 # Docker Architecture: How It All Fits Together
-      2 ## The Big Picture
-      3 ```
-      4 YOUR COMPUTER (Host Machine)
-      5 │
-      6 ├── your-project/
-      7 │   ├── docker-compose.yml    ← ONE file, lives HERE (not in cont
-        ainers)
-      8 │   │
 
 ● Write(repos\de-zoomcamp-2026\module-1\linkedin-posts.md)
   ⎿  Wrote 1 lines to repos\de-zoomcamp-2026\module-1\linkedin-posts.md
@@ -1156,9 +1121,9 @@
 
   You're about to have your first repo live on GitHub!
 
-✻ Brewed for 3m 8s
+✻ Sautéed for 3m 8s
 
-❯ 1. $ git add .                                                            
+> 1. $ git add .                                                            
   warning: in the working copy of 'README.md', LF will be replaced by CRLF  
   the next time Git touches it                                              
   warning: in the working copy of 'module-1/docker-architecture.md', LF     
@@ -1182,7 +1147,7 @@
   branch 'main' set up to track 'origin/main'.                              
   ⎿  Interrupted · What should Claude do instead?
 
-❯ also how do i see my commits? from git and then on github 
+> also how do i see my commits? from git and then on github 
 
 ● You did it! Your repo is live on GitHub! Let me answer all your questions.
 
@@ -1250,7 +1215,7 @@
 
   Tell me what you see! You just shipped your first commit.
 
-❯ $ git log --oneline                                                       
+> $ git log --oneline                                                       
   e14cf7c (HEAD -> main, origin/main) Intial commit: Module 1 notes,        
   glossary and README                                                       
                                                                             
@@ -1289,7 +1254,7 @@
   ---
   Which one did you do? Edited locally or on GitHub's website?
 
-❯ github website 
+> github website 
 
 ● You got it. Pull those changes down:
 
@@ -1323,7 +1288,7 @@
   ---
   Run git pull and tell me what you see!
 
-❯ this is cool. i have pulled successfully and i have also run git log      
+> this is cool. i have pulled successfully and i have also run git log      
   --oneline and it shows me 3 commits, 2 i did in github and the initial    
   commit here                                                               
 
@@ -1385,10 +1350,10 @@
   2. Terraform basics - the next part of Module 1?
   3. Take a break - you crushed it today?
 
-❯ /export 
+> /export 
   ⎿  Export cancelled
 
-❯ pwd 
+> pwd 
 
 ● Bash(pwd)
   ⎿  /c/Users/abdulbasitbello
@@ -1399,7 +1364,7 @@
 
   cd ~/repos/de-zoomcamp-2026
 
-❯ cd ~/repos/de-zoomcamp-2026 
+> cd ~/repos/de-zoomcamp-2026 
 
 ● Bash(cd ~/repos/de-zoomcamp-2026 && pwd)
   ⎿  /c/Users/abdulbasitbello/repos/de-zoomcamp-2026
@@ -1410,10 +1375,10 @@
 
   What would you like to do next?
 
-❯ /export [Zoomcamp Claude] 
+> /export [Zoomcamp Claude] 
   ⎿  Conversation exported to: [Zoomcamp Claude].txt
 
-❯ i can't find the file 
+> i can't find the file 
 
 ● Let me find it for you.
 
@@ -1435,9 +1400,9 @@
 
   You can open File Explorer and see it there.
 
-✻ Brewed for 2m 41s
+✻ Churned for 2m 41s
 
-❯ interesting... shouldn't it have exported to the present working          
+> interesting... shouldn't it have exported to the present working          
   directory which i specified? before exporting?                            
 
 ● You'd think so! But /export in Claude Code doesn't use your shell's working directory.
@@ -1459,7 +1424,7 @@
 
   mv ~/"[Zoomcamp Claude].txt" ~/repos/de-zoomcamp-2026/
 
-❯ mv ~/"[Zoomcamp Claude].txt" ~/repos/de-zoomcamp-2026/ 
+> mv ~/"[Zoomcamp Claude].txt" ~/repos/de-zoomcamp-2026/ 
 
 ● Bash(mv ~/"[Zoomcamp Claude].txt" ~/repos/de-zoomcamp-2026/)
   ⎿  (No content)
@@ -1490,7 +1455,7 @@
   git commit -m "Add exported conversation notes"
   git push
 
-❯ i have another new file in this directory, why? 
+> i have another new file in this directory, why? 
 
 ● That tmpclaude-b750-cwd file is a temporary file created by Claude Code itself. It uses it internally to track the working directory during our session.
 
@@ -1516,7 +1481,7 @@
 
   Want me to create one for your repo?
 
-❯ your example is not clear. how to create a gitignore file 
+> your example is not clear. how to create a gitignore file 
 
 ● Let me explain clearly.
 
@@ -1584,7 +1549,7 @@
   ---
   Want me to create this .gitignore in your repo now? Just say yes and I'll do it.
 
-❯ no                                                                        
+> no                                                                        
   We need to work on the first module together, i'm in the first page       
   https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-d 
   ocker-terraform/docker-sql/01-introduction.md and i don't understand the  
@@ -1684,9 +1649,9 @@
   ---
   Do you have Docker Desktop installed and running? Want to try these commands together?
 
-✻ Churned for 32s
+✻ Cooked for 32s
 
-❯ yes let's try them, i don't have docker installed or does it come         
+> yes let's try them, i don't have docker installed or does it come         
   default?                                                                  
 
 ● Docker does not come pre-installed. You need to install Docker Desktop.
@@ -1731,7 +1696,7 @@
   ---
   Go install Docker Desktop and tell me when you've got docker --version working. I'll wait!
 
-❯ if i restart, won't we lose this chat history? 
+> if i restart, won't we lose this chat history? 
 
 ● Good thinking, but you're safe:
 
@@ -1758,7 +1723,7 @@
   ---
   Go ahead and restart. I'll be here when you get back!
 
-❯ there are multiple sessions, i have 4 tabs currently which one continues? 
+> there are multiple sessions, i have 4 tabs currently which one continues? 
 
 ● When you type /resume, it shows you a list of recent sessions to choose from. You pick which one to continue.
 
@@ -1780,10 +1745,10 @@
   ---
   Go restart, install Docker, and /resume when you're back. You've got this!
 
-❯ /export [Zoomcamp Claude] 
+> /export [Zoomcamp Claude] 
   ⎿  Conversation exported to: [Zoomcamp Claude].txt
 
-❯ did this update the older file or created a new one? 
+> did this update the older file or created a new one? 
 
 ● Bash(find /c/Users/abdulbasitbello -name "*Zoomcamp*" -type f 2>/dev/null)
   ⎿ /c/Users/abdulbasitbello/repos/de-zoomcamp-2026/[Zoomcamp Claude].txt
@@ -1814,10 +1779,789 @@
 
 ✻ Brewed for 52s
 
-❯ mv ~/"[Zoomcamp Claude].txt" ~/repos/de-zoomcamp-2026 
+> mv ~/"[Zoomcamp Claude].txt" ~/repos/de-zoomcamp-2026 
 
 ● Bash(mv ~/"[Zoomcamp Claude].txt" ~/repos/de-zoomcamp-2026/)
   ⎿  Interrupted · What should Claude do instead?
+
+> /export [Zoomcamp Claude] 
+  ⎿  Conversation exported to: [Zoomcamp Claude].txt
+
+> which option should i choose, i have a picture to paste 
+
+● Go ahead and paste the picture - I can see images! Just paste it directly into the chat.
+
+> i don't think this interface allows that, i just tried and nothing 
+
+● You're right - the CLI doesn't support direct paste. Here are your options:
+
+  ---
+  Option 1: Save the screenshot and I'll read it
+
+  1. Press Win + Shift + S to take a screenshot
+  2. Save it somewhere, like: ~/screenshot.png
+  3. Tell me the path and I'll view it:
+
+  # Example - tell me where you saved it
+  ~/screenshot.png
+
+  ---
+  Option 2: Just describe what you see
+
+  What options are showing? Is it:
+  - A prompt asking to overwrite a file?
+  - Docker installation choices?
+  - Something else?
+
+  ---
+  Which is easier for you?
+
+> its asking me what window type i should download. AMD or ARM 64 
+
+● Choose AMD64 (the first option).
+
+  ---
+  Quick explanation:
+  ┌────────┬────────────────────────────────────────────────────────┐
+  │ Option │                     What It's For                      │
+  ├────────┼────────────────────────────────────────────────────────┤
+  │ AMD64  │ Standard Intel/AMD processors - 99% of Windows PCs     │
+  ├────────┼────────────────────────────────────────────────────────┤
+  │ ARM64  │ ARM processors - only Surface Pro X or special devices │
+  └────────┴────────────────────────────────────────────────────────┘
+  Unless you have a Surface Pro X or know you have an ARM chip, you're on AMD64.
+
+  Download that one, install, restart, and come back!
+
+> my machine Feels like my laptop is slower than it should be. I feel like  
+  there is bloatware on the system. Can you help me confirm that and let me 
+  know?                                                                     
+
+● I can help you investigate. Let's check a few things.
+
+● Bash(powershell -Command "Get-CimInstance Win32_StartupCommand | Select-Object
+       Name, Command | Format-Table -AutoSize -Wrap")
+  ⎿  Name                                                     Command
+
+     ----                                                     -------
+     … +55 lines (ctrl+o to expand)
+
+● Here's What I Found
+
+  Your System
+  Spec: OS
+  Value: Windows 11 Pro
+  Verdict: ✓ Good
+  ────────────────────────────────────────
+  Spec: CPU
+  Value: Intel i7-8665U (4 cores, 1.9GHz)
+  Verdict: Decent, but older ultrabook chip (2019)
+  ────────────────────────────────────────
+  Spec: RAM
+  Value: 16 GB total
+  Verdict: ✓ Good amount
+  ────────────────────────────────────────
+  Spec: RAM Free
+  Value: ~1 GB free
+  Verdict: ⚠️ Problem! 15 GB in use right now
+  ---
+  The Problem: Too Many Startup Apps
+
+  You have 14 apps launching at startup. That's a lot:
+  ┌────────────────┬────────────────────────────────────────────────────┐
+  │      App       │                 Needed at Startup?                 │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Ollama         │ ❌ Heavy - runs AI models, launch only when needed │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Upwork         │ ❌ Open when you need it                           │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ OneDrive       │ ⚠️ Optional - useful for sync but uses RAM         │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Microsoft Edge │ ❌ No need to auto-launch                          │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Brave Update   │ ⚠️ Can disable                                     │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Notion         │ ❌ Open when you need it                           │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Spotify        │ ❌ Open when you need it                           │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Loom           │ ❌ Open when you need it                           │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Figma Agent    │ ❌ Open when you need it                           │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Poe            │ ❌ Another AI app - open when needed               │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Grammarly      │ ⚠️ Optional                                        │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Claude Desktop │ ⚠️ Optional - you're using CLI anyway              │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ SecurityHealth │ ✓ Keep (Windows security)                          │
+  ├────────────────┼────────────────────────────────────────────────────┤
+  │ Realtek Audio  │ ✓ Keep (audio drivers)                             │
+  └────────────────┴────────────────────────────────────────────────────┘
+  ---
+  Quick Fix: Disable Startup Apps
+
+  1. Press Ctrl + Shift + Esc to open Task Manager
+  2. Click the "Startup apps" tab
+  3. Right-click apps you don't need → Disable
+
+  Recommended to disable:
+  - Ollama
+  - Upwork
+  - Edge
+  - Notion
+  - Spotify
+  - Loom
+  - Figma Agent
+  - Poe
+
+  This alone could free up several GB of RAM.
+
+  ---
+  Want me to check what's currently eating the most memory right now?
+
+✻ Cooked for 44s
+
+> ollama shows as dissabled 
+
+● Good - but it might still be running right now from an earlier session. Let me check what's actually using your memory:
+
+● Bash(powershell -Command "Get-Process | Sort-Object WorkingSet64 -Descending |
+       Select-Object -First 20 Name,
+      @{Name='RAM_MB';Expression={[math]::Round($_.WorkingSet6…)
+  ⎿  Error: Exit code 1
+     At line:1 char:126
+     + ... ct -First 20 Name, @{Name='RAM_MB';Expression={[math]::Round(extglob. 
+     ...
+     +                                                                  ~
+     Missing ')' in method call.
+     At line:1 char:126
+     + ... e='RAM_MB';Expression={[math]::Round(extglob.WorkingSet64/1MB,0)}} |  
+     ...
+     +                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+     Unexpected token 'extglob.WorkingSet64/1MB' in expression or statement.
+     At line:1 char:150
+
+
+     … +29 lines (ctrl+o to see all)
+
+● Bash(powershell -Command "Get-Process | Sort-Object WorkingSet64 -Descending |
+       Select-Object -First 20 Name, WorkingSet64")
+  ⎿  Name                     WorkingSet64
+     ----                     ------------
+     Memory Compression         2276102144
+     … +19 lines (ctrl+o to expand)
+
+● Found the culprits! Here's what's eating your RAM:
+  ┌────────────────────────┬──────────┬────────────────────────────────────────┐
+  │          App           │ RAM Used │                 Notes                  │
+  ├────────────────────────┼──────────┼────────────────────────────────────────┤
+  │ Memory Compression     │ 2.2 GB   │ ⚠️ Windows compressing RAM because     │
+  │                        │          │ you're running low                     │
+  ├────────────────────────┼──────────┼────────────────────────────────────────┤
+  │ Docker Desktop         │ 1.2 GB   │ You're installing it right now -       │
+  │ Installer              │          │ temporary                              │
+  ├────────────────────────┼──────────┼────────────────────────────────────────┤
+  │ Microsoft Edge (6      │ ~2 GB    │ 🔴 Biggest hog - even if you're not    │
+  │ processes)             │ total    │ using it                               │
+  ├────────────────────────┼──────────┼────────────────────────────────────────┤
+  │ Claude Desktop         │ ~700 MB  │ You have both CLI and desktop open?    │
+  ├────────────────────────┼──────────┼────────────────────────────────────────┤
+  │ Spotify                │ ~500 MB  │ Running in background                  │
+  ├────────────────────────┼──────────┼────────────────────────────────────────┤
+  │ Windows Defender       │ 290 MB   │ Keep - it's your antivirus             │
+  ├────────────────────────┼──────────┼────────────────────────────────────────┤
+  │ Wispr Flow             │ 143 MB   │ What is this? Another app              │
+  └────────────────────────┴──────────┴────────────────────────────────────────┘
+  ---
+  The Main Issues
+
+  1. Edge is running 6 processes (~2 GB) - even in background
+  2. You have Claude Desktop + CLI - pick one
+  3. Spotify in background - close if not using
+
+  ---
+  Quick Wins Right Now
+
+  Close these to free up RAM immediately:
+
+  1. Close Microsoft Edge completely (check system tray too)
+  2. Close Claude Desktop (you're using CLI anyway)
+  3. Close Spotify if not listening
+
+  ---
+  After Docker Installs
+
+  The Docker installer is using 1.2 GB temporarily. Once installed, it'll use less (though Docker Desktop does use ~500MB-1GB normally).
+
+  ---
+  Want me to check if Edge is set to run in background even when "closed"? That's a common sneaky setting.
+
+✻ Brewed for 35s
+
+> yes check the edge setting 
+
+● Bash(powershell -Command "Get-Content '$env:LOCALAPPDATA\Microsoft\Edge\User
+      Data\Default\Preferences' | Select-String -Pattern
+      'background_mode|startup'" 2>/dev/nul…)
+  ⎿  (No content)
+
+● Bash(powershell -Command "Get-ItemProperty
+      'HKCU:\Software\Microsoft\Edge\BackgroundMode' -ErrorAction
+      SilentlyContinue")
+  ⎿  Error: Exit code 1
+
+● Can't read Edge's settings directly. But here's how to disable it manually - takes 30 seconds:
+
+  ---
+  Disable Edge Running in Background
+
+  Step 1: Open Edge (just to change the setting)
+
+  Step 2: Click the ... menu (top right) → Settings
+
+  Step 3: Click "System and performance" (left sidebar)
+
+  Step 4: Turn OFF these two toggles:
+  - ❌ "Startup boost"
+  - ❌ "Continue running background extensions and apps when Microsoft Edge is closed"
+
+  Step 5: Close Edge completely
+
+  ---
+  Also Remove Edge from Startup
+
+  You saw it in your startup list. In Task Manager → Startup apps:
+
+  - Find Microsoft Edge → Right-click → Disable
+
+  ---
+  After You Do This
+
+  Check if Edge processes disappear:
+
+  powershell -Command "Get-Process msedge -ErrorAction SilentlyContinue | Measure-Object | Select-Object Count"
+
+  Should show Count: 0 after closing Edge.
+
+  ---
+  Do those steps and let me know. That alone could free up 2 GB of RAM.
+
+> but i have alot of tabs in edge, i dont want to lose them 
+
+● Your tabs are safe! Edge saves them automatically.
+
+  ---
+  Edge Will Remember Your Tabs
+
+  Option 1: Just close Edge normally
+
+  When you reopen Edge, press Ctrl + Shift + T to restore all tabs. Or Edge usually asks "Restore tabs?" on startup.
+
+  ---
+  Option 2: Make sure "Restore tabs" is enabled (safest)
+
+  Before closing:
+  1. Edge → ... menu → Settings
+  2. Click "Start, home, and new tabs"
+  3. Under "When Edge starts", select: "Open tabs from the previous session"
+
+  Now Edge will always reopen with your tabs.
+
+  ---
+  Option 3: Save tabs to a collection (extra safe)
+
+  1. Press Ctrl + Shift + Y to open Collections
+  2. Click "New Collection" → name it "My Saved Tabs"
+  3. Click "Add all tabs"
+
+  Now they're saved even if something goes wrong.
+
+  ---
+  My Recommendation
+
+  1. Enable "Open tabs from the previous session" in settings
+  2. Then close Edge
+  3. Disable the background settings I mentioned
+  4. Reopen Edge - your tabs will be there
+
+  Your tabs won't disappear. Browsers haven't lost tabs on close since like 2010.
+
+> powershell -Command "Get-Process msedge -ErrorAction SilentlyContinue |   
+  Measure-Object | Select-Object Count"                                     
+
+● Bash(powershell -Command "Get-Process msedge -ErrorAction SilentlyContinue |
+      Measure-Object | Select-Object Count")
+  ⎿  Count
+     -----
+     27
+
+● Edge is still running 27 processes. That's a lot of tabs!
+
+  Did you:
+  1. Enable "Open tabs from previous session" in Edge settings?
+  2. Close Edge completely?
+
+  If Edge is still open, that's why. Each tab = roughly 1 process, plus Edge's helper processes.
+
+  ---
+  Once you close Edge and disable background mode, run the command again. It should show Count: 0.
+
+  Also, how's the Docker installation going? Is it finished yet?
+
+> i have restarted my machine and docker triggered a login through my edge  
+  that is why its back open. docker is installed but this is the error i    
+  got on the page                                                           
+  f Windows Subsystem for Linux (WSL) is too old.                           
+  Run the command below to update or for more information, visit .the       
+  Microsoft WSL documentation⁠                                               
+                                                                            
+  wsl --update                                                              
+
+● That's a common issue - easy fix. Just update WSL:
+
+● Bash(wsl --update)
+  ⎿  Error: Exit code 1
+     T h e   W i n d o w s   S u b s y s t e m   f o r   L i n u x   i s   n o t   i n s t a l l e d .   Y o u   c a n   i n s t a l l   b y   r u n n i n g 
+       ' w s l . e x e   - - i n s t a l l ' .   
+      F o r   m o r e   i n f o r m a t i o n   p l e a s e   v i s i t   h t t p s : / / a k a . m s / w s l i n s t a l l   
+      
+
+● WSL isn't installed yet. Let's install it:
+
+● Bash(wsl --install)
+  ⎿  Error: Exit code 1
+     T h e   W i n d o w s   S u b s y s t e m   f o r   L i n u x   i s   n o t   i n s t a l l e d .   Y o u   c a n   i n s t a l l   b y   r u n n i n g 
+       ' w s l . e x e   - - i n s t a l l ' .   
+      F o r   m o r e   i n f o r m a t i o n   p l e a s e   v i s i t   h t t p s : / / a k a . m s / w s l i n s t a l l   
+      
+
+● This needs Administrator privileges. You'll need to do this manually:
+
+  ---
+  Install WSL (Run as Admin)
+
+  Step 1: Press Win key, type "PowerShell"
+
+  Step 2: Right-click "Windows PowerShell" → "Run as administrator"
+
+  Step 3: In the admin PowerShell window, run:
+
+  wsl --install
+
+  Step 4: Wait for it to complete (downloads Ubuntu by default)
+
+  Step 5: Restart your computer when prompted
+
+  ---
+  After restart:
+  1. WSL will finish setup (may ask you to create a Linux username/password)
+  2. Open Docker Desktop - it should work now
+
+  ---
+  Run that command in admin PowerShell and tell me what happens!
+
+> it keeps timing out! 
+  ⎿  Interrupted · What should Claude do instead?
+
+> it actually closed my spotify and made me have to restart you too. 
+
+● WSL installation can be heavy - it downloads a full Linux system. But the restart might mean it actually installed!
+
+  Let's check if it worked:
+
+● Bash(wsl --status)
+  ⎿ Tool use rejected with user message: i just checked wsl --status and it says
+     wsl is not installed,You can install by running 'wsl.exe --install'.
+    For more information please visit https://aka.ms/wslinstall
+
+● It didn't complete. Let's try a different approach - install just the WSL kernel update (smaller download):
+
+  ---
+  Option 1: Manual WSL Kernel Install (Faster)
+
+  1. Download directly from Microsoft: https://aka.ms/wsl2kernel
+  2. Run the installer (wsl_update_x64.msi)
+  3. Then open Admin PowerShell and run:
+  wsl --set-default-version 2
+  4. Restart Docker Desktop
+
+  ---
+  Option 2: Try Admin PowerShell Again
+
+  Sometimes it just needs a stable connection:
+
+  1. Close everything except PowerShell (frees RAM)
+  2. Open Admin PowerShell
+  3. Run:
+  wsl --install --no-distribution
+
+  3. This installs just WSL without Ubuntu (smaller, faster).
+  4. Restart when done
+  5. Open Docker Desktop
+
+  ---
+  Which option do you want to try? I'd recommend Option 1 (manual kernel download) - it's the smallest download and usually works.
+
+> but what do i lose by downloading just the kernel or just WSL without     
+  ubuntu?                                                                   
+
+● Great question! Short answer: Nothing - for Docker, you don't need Ubuntu.
+
+  ---
+  What Each Option Gives You
+  Option: wsl --install (full)
+  What It Installs: WSL + Ubuntu
+  What You Can Do: Use Linux terminal directly + Docker works
+  ────────────────────────────────────────
+  Option: wsl --install --no-distribution
+  What It Installs: WSL only
+  What You Can Do: Docker works
+  ────────────────────────────────────────
+  Option: Manual kernel (Option 1)
+  What It Installs: WSL kernel only
+  What You Can Do: Docker works
+  ---
+  Why Docker Doesn't Need Ubuntu
+
+  Docker Desktop uses WSL as an engine underneath, not as a Linux you interact with.
+
+  ┌─────────────────────────────┐
+  │  Docker Desktop             │  ← You interact with this
+  ├─────────────────────────────┤
+  │  WSL 2 (kernel/engine)      │  ← Docker needs this to run containers
+  ├─────────────────────────────┤
+  │  Windows                    │
+  └─────────────────────────────┘
+
+  Docker brings its own lightweight Linux inside containers. It doesn't use Ubuntu.
+
+  ---
+  When Would You Need Ubuntu?
+
+  - If you want to type wsl and drop into a Linux terminal
+  - If you want to run Linux commands outside of Docker
+  - For the Zoomcamp: Not required - Git Bash + Docker is enough
+
+  ---
+  My Recommendation
+
+  Go with Option 1 (manual kernel download) or --no-distribution.
+
+  You can always add Ubuntu later:
+  wsl --install -d Ubuntu
+
+  ---
+  For the Zoomcamp, you just need Docker working. Go grab that kernel: https://aka.ms/wsl2kernel
+
+> i just tried running the installer and i got an error "this update only   
+  applies to machines with Windows Subsystem for Linux"                     
+
+● That means the base WSL feature isn't enabled yet. We need to turn it on first.
+
+  ---
+  Step 1: Enable WSL Feature
+
+  Open Admin PowerShell and run this:
+
+  dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+  Then enable Virtual Machine Platform:
+
+  dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+  ---
+  Step 2: Restart Your Computer
+
+  These are Windows features - they need a restart to activate.
+
+  ---
+  Step 3: After Restart
+
+  1. Run the kernel installer again: https://aka.ms/wsl2kernel
+  2. Then open Admin PowerShell and run:
+  wsl --set-default-version 2
+  3. Open Docker Desktop - it should work now
+
+  ---
+  Run those two dism.exe commands in Admin PowerShell and tell me what you see. Then restart.
+
+> Operations in 1. completed successfully. I need to document all of this   
+  as part of my process. I have screenshots saved in a setup folder in      
+  ~/repos/de-zoomcamp-2026                                                  
+
+● Good progress! Now run the second command:
+
+  dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+  ---
+  Once both are done, I'll create a setup guide in your repo documenting everything.
+
+  Let me see what's in your setup folder:
+
+● Bash(ls -la ~/repos/de-zoomcamp-2026/setup/ 2>/dev/null || ls -la
+      ~/repos/de-zoomcamp-2026/)
+  ⎿  total 96                                                       
+     drwxr-xr-x 1 AzureAD+abdulbasitbello 4096     0 Jan 17 00:37 .
+     drwxr-xr-x 1 AzureAD+abdulbasitbello 4096     0 Jan 16 21:06 ..
+     … +5 lines (ctrl+o to expand)
+
+● I don't see a setup folder yet. Where did you save the screenshots?
+
+  Once you tell me, I'll:
+  1. Create a proper setup/ folder structure
+  2. Write a setup/windows-docker-setup.md guide documenting the whole process
+
+  ---
+  Also, did the second dism.exe command complete? Once both are done, restart your computer, then we'll get Docker working.
+
+> ~/repos/de-zoomcamp-2026/module-1/setup. both commands worked. 
+
+● Let me see your screenshots:
+
+● Bash(ls -la ~/repos/de-zoomcamp-2026/module-1/setup/)
+  ⎿  total 288                                                       
+     drwxr-xr-x 1 AzureAD+abdulbasitbello 4096      0 Jan 17 13:06 .
+     drwxr-xr-x 1 AzureAD+abdulbasitbello 4096      0 Jan 17 12:34 ..
+     … +6 lines (ctrl+o to expand)
+
+● You've got 3 screenshots saved. Now let me create the setup guide:
+
+● Write(repos\de-zoomcamp-2026\module-1\setup\windows-docker-setup.md)
+  ⎿  Wrote 1 lines to                                                    
+     repos\de-zoomcamp-2026\module-1\setup\windows-docker-setup.md
+      1 # Windows Docker Setup Guide
+      2 Step-by-step documentation of setting up Docker Desktop on Window
+        s 11.
+      3 ---
+      4 ## Prerequisites
+      5 - Windows 11 Pro
+      6 - Admin access to your machine
+
+● Done! Your setup folder now has:
+
+  module-1/setup/
+  ├── windows-docker-setup.md          ← Setup guide
+  ├── Screenshot 2026-01-17 004309.png
+  ├── Screenshot 2026-01-17 123227.png
+  └── Screenshot 2026-01-17 130448.png
+
+  ---
+  Next Steps
+
+  Now restart your computer - the WSL features need this to activate.
+
+  After restart:
+  1. Download & run the kernel: https://aka.ms/wsl2kernel
+  2. Open Admin PowerShell, run: wsl --set-default-version 2
+  3. Open Docker Desktop
+  4. Test with: docker --version
+
+  ---
+  Before restarting, want to commit your new docs?
+
+  cd ~/repos/de-zoomcamp-2026
+  git add .
+  git commit -m "Add setup guide and screenshots for Docker installation"
+  git push
+
+✻ Worked for 35s
+
+> in the docker setup md, wouldn't it be better to rename the screenshots   
+  and hyperlink or render them in the md file ?                             
+
+● Great idea! Let me look at the screenshots so I can rename them properly:
+
+● Read(repos\de-zoomcamp-2026\module-1\setup\Screenshot 2026-01-17 004309.png)
+  ⎿  Read image (131.9KB)
+
+● Read(repos\de-zoomcamp-2026\module-1\setup\Screenshot 2026-01-17 123227.png)
+  ⎿  Read image (129.1KB)
+
+● Read(repos\de-zoomcamp-2026\module-1\setup\Screenshot 2026-01-17 130448.png)
+  ⎿  Read image (14.8KB)
+
+● Now I can see them. Let me rename and update the markdown:
+
+● Bash(cd ~/repos/de-zoomcamp-2026/module-1/setup && mv "Screenshot 2026-01-17
+      004309.png" "01-docker-download-options.png" && mv "Screenshot 2026-01-17
+      123227.png" "0…)
+  ⎿  (No content)
+
+● Write(repos\de-zoomcamp-2026\module-1\setup\windows-docker-setup.md)
+  ⎿  Added 44 lines, removed 34 lines                                    
+      15  ## Step 1: Download Docker Desktop
+      16  
+      17  1. Go to: https://www.docker.com/products/docker-desktop/
+      18 -2. Click **"Download for Windows"**                            
+      19 -3. Choose **AMD64** (for standard Intel/AMD processors)        
+      18 +2. Click **"Download Docker Desktop"**                         
+      19 +3. Choose **AMD64** for standard Intel/AMD processors          
+      20 +                                                               
+      21 +![Docker download options](01-docker-download-options.png)     
+      22 +                                                               
+      23  4. Run the installer: `Docker Desktop Installer.exe`
+      24  
+      25  During installation:
+     ...
+      28  
+      29  ---
+      30  
+      28 -## Step 2: Enable WSL Features                                 
+      31 +## Step 2: Handle WSL Error                                    
+      32  
+      30 -Docker Desktop requires Windows Subsystem for Linux (WSL 2).   
+      33 +When you first open Docker Desktop, you may see this error:    
+      34  
+      32 -### If you get "WSL is too old" error:                         
+      35 +![WSL needs updating error](02-wsl-needs-updating-error.png)   
+      36  
+      37 +**Don't panic!** This just means WSL needs to be set up.       
+      38 +                                                               
+      39 +---                                                            
+      40 +                                                               
+      41 +## Step 3: Enable WSL Features                                 
+      42 +                                                               
+      43  Open **PowerShell as Administrator** and run these commands:
+      44  
+      45  **Enable WSL:**
+     ...
+       52  dism.exe /online /enable-feature /featurename:VirtualMachinePl
+           atform /all /norestart
+       53  ```
+       54  
+       46 -**Restart your computer** after both commands complete.       
+       55 +**⚠️ Restart your computer** after both commands complete.    
+       56  
+       57  ---
+       58  
+       50 -## Step 3: Install WSL Kernel Update                          
+       59 +## Step 4: Install WSL Kernel Update                          
+       60  
+       52 -After restart:                                                
+       61 +After restart, download and run the kernel update: https://aka
+          +.ms/wsl2kernel                                                
+       62  
+       54 -1. Download the kernel update: https://aka.ms/wsl2kernel      
+       55 -2. Run the installer: `wsl_update_x64.msi`                    
+       56 -3. Open **Admin PowerShell** and run:                         
+       57 -   ```powershell                                              
+       58 -   wsl --set-default-version 2                                
+       59 -   ```                                                        
+       63 +**Note:** If you try to install the kernel BEFORE enabling WSL
+          + features, you'll see this error:                             
+       64  
+       65 +![WSL kernel install error](03-wsl-kernel-install-error.png)  
+       66 +                                                              
+       67 +Make sure Step 3 is complete and you've restarted before insta
+          +lling the kernel.                                             
+       68 +                                                              
+       69  ---
+       70  
+       63 -## Step 4: Start Docker Desktop                               
+       71 +## Step 5: Set WSL 2 as Default                               
+       72  
+       73 +Open **Admin PowerShell** and run:                            
+       74 +                                                              
+       75 +```powershell                                                 
+       76 +wsl --set-default-version 2                                   
+       77 +```                                                           
+       78 +                                                              
+       79 +---                                                           
+       80 +                                                              
+       81 +## Step 6: Start Docker Desktop                               
+       82 +                                                              
+       83  1. Open Docker Desktop from Start menu
+       66 -2. Wait for it to start (whale icon in system tray)           
+       84 +2. Wait for it to start (whale icon in system tray turns solid
+          +)                                                             
+       85  3. Verify in terminal:
+       68 -   ```bash                                                    
+       69 -   docker --version                                           
+       70 -   docker run hello-world                                     
+       71 -   ```                                                        
+       86  
+       87 +```bash                                                       
+       88 +docker --version                                              
+       89 +docker run hello-world                                        
+       90 +```                                                           
+       91 +                                                              
+       92  ---
+       93  
+       94  ## Troubleshooting
+       95  
+       96  | Error | Solution |
+       97  |-------|----------|
+       79 -| "WSL is too old" | Run the dism.exe commands above, restart 
+          -|                                                             
+       80 -| "WSL is not installed" | Enable WSL feature first, then inst
+          -all kernel |                                                  
+       81 -| Kernel installer fails | Must enable WSL feature before inst
+          -alling kernel |                                               
+       82 -| Docker won't start | Make sure WSL 2 is set as default: `wsl
+          - --set-default-version 2` |                                   
+       98 +| "WSL is too old" | Run the dism.exe commands, restart |     
+       99 +| "WSL is not installed" | Enable WSL feature first (Step 3), 
+          +restart |                                                     
+      100 +| Kernel installer fails | Complete Step 3 and restart before 
+          +installing kernel |                                           
+      101 +| Docker won't start | Ensure WSL 2 is default: `wsl --set-def
+          +ault-version 2` |                                             
+      102  
+      103  ---
+      104  
+       86 -## Screenshots                                                
+       87 -                                                              
+       88 -See screenshots in this folder for visual reference:          
+       89 -- `Screenshot 2026-01-17 004309.png`                          
+       90 -- `Screenshot 2026-01-17 123227.png`                          
+       91 -- `Screenshot 2026-01-17 130448.png`                          
+       92 -                                                              
+       93 ----                                                           
+       94 -                                                              
+      105  ## Notes
+      106  
+      107  - Docker Desktop uses ~500MB-1GB of RAM when running
+      108  - You don't need Ubuntu installed - Docker only needs the WSL 
+           kernel
+       99 -- You can install Ubuntu later if needed: `wsl --install -d Ub
+          -untu`                                                         
+      109 +- Install Ubuntu later if needed: `wsl --install -d Ubuntu`   
+
+● Done! Here's what changed:
+
+  Renamed screenshots:
+  Screenshot 2026-01-17 004309.png  →  01-docker-download-options.png
+  Screenshot 2026-01-17 123227.png  →  02-wsl-needs-updating-error.png
+  Screenshot 2026-01-17 130448.png  →  03-wsl-kernel-install-error.png
+
+  Images now render in the markdown:
+  ![Docker download options](01-docker-download-options.png)
+  ![WSL needs updating error](02-wsl-needs-updating-error.png)
+  ![WSL kernel install error](03-wsl-kernel-install-error.png)
+
+  When you view this on GitHub, the images will display inline with the text.
+
+  ---
+  Markdown Image Syntax Explained
+  ┌────────────────────────┬───────────────────────────────────────┐
+  │         Syntax         │             What It Does              │
+  ├────────────────────────┼───────────────────────────────────────┤
+  │ ![alt text](image.png) │ Renders the image (what I used)       │
+  ├────────────────────────┼───────────────────────────────────────┤
+  │ [link text](image.png) │ Creates a clickable link to the image │
+  └────────────────────────┴───────────────────────────────────────┘
+  The ! at the start is the difference - it tells markdown to display the image, not just link to it.
+
+  ---
+  Now restart your computer, complete the Docker setup, then commit everything:
+
+  git add .
+  git commit -m "Add Docker setup guide with screenshots"
+  git push
+
+✻ Crunched for 1m 2s
 
 
 
