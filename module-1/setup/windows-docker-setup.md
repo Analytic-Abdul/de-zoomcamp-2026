@@ -16,94 +16,148 @@ Step-by-step documentation of setting up Docker Desktop on Windows 11.
 
 1. Go to: https://www.docker.com/products/docker-desktop/
 2. Click **"Download Docker Desktop"**
-3. Choose **AMD64** for standard Intel/AMD processors
+3. Choose **AMD64** for standard Intel/AMD processors (ARM64 is for ARM chips only)
 
 ![Docker download options](01-docker-download-options.png)
 
 4. Run the installer: `Docker Desktop Installer.exe`
 
 During installation:
-- ✅ Check "Use WSL 2 instead of Hyper-V"
+- ✅ Check "Use WSL 2 instead of Hyper-V" (we'll change this later if needed)
 - ✅ Check "Add shortcut to desktop"
 
 ---
 
-## Step 2: Handle WSL Error
+## Step 2: WSL 2 vs Hyper-V (Understanding the Trade-offs)
 
-When you first open Docker Desktop, you may see this error:
+Docker Desktop can use **two different backends**:
+
+| Backend | Pros | Cons |
+|---------|------|------|
+| **WSL 2** | Faster, less RAM, better Linux compatibility | Can be difficult to install |
+| **Hyper-V** | More reliable setup, built into Windows Pro | Uses more RAM, slightly slower |
+
+### My Experience: WSL 2 Installation Failed
+
+When first opening Docker Desktop, you may see this error:
 
 ![WSL needs updating error](02-wsl-needs-updating-error.png)
 
-**Don't panic!** This just means WSL needs to be set up.
+### What I Tried (WSL 2 Route):
 
----
+1. **Enable WSL features** in Admin PowerShell:
+   ```powershell
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+   ```
 
-## Step 3: Enable WSL Features
+2. **Restart computer**
 
-Open **PowerShell as Administrator** and run these commands:
+3. **Install WSL kernel** from https://aka.ms/wsl2kernel
 
-**Enable WSL:**
-```powershell
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-```
-
-**Enable Virtual Machine Platform:**
-```powershell
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
-
-**⚠️ Restart your computer** after both commands complete.
-
----
-
-## Step 4: Install WSL Kernel Update
-
-After restart, download and run the kernel update: https://aka.ms/wsl2kernel
-
-**Note:** If you try to install the kernel BEFORE enabling WSL features, you'll see this error:
+**But I got this error:**
 
 ![WSL kernel install error](03-wsl-kernel-install-error.png)
 
-Make sure Step 3 is complete and you've restarted before installing the kernel.
+The kernel installer kept saying "This update only applies to machines with Windows Subsystem for Linux" even though the features were enabled.
+
+### The Solution: Use Hyper-V Instead
+
+After multiple attempts with WSL 2, I switched to **Hyper-V backend**.
 
 ---
 
-## Step 5: Set WSL 2 as Default
+## Step 3: Enable Hyper-V (The Reliable Path)
 
-Open **Admin PowerShell** and run:
-
-```powershell
-wsl --set-default-version 2
-```
+1. Press `Win + R`, type `optionalfeatures`, press Enter
+2. Check these boxes:
+   - ✅ **Hyper-V** (expand and check all sub-items)
+   - ✅ **Virtual Machine Platform**
+   - ✅ **Windows Subsystem for Linux** (can leave checked, won't hurt)
+3. Click OK
+4. **Restart your computer**
 
 ---
 
-## Step 6: Start Docker Desktop
+## Step 4: Configure Docker to Use Hyper-V
 
-1. Open Docker Desktop from Start menu
-2. Wait for it to start (whale icon in system tray turns solid)
-3. Verify in terminal:
+1. Open **Docker Desktop**
+2. Go to **Settings** (gear icon) → **General**
+3. **UNCHECK** "Use the WSL 2 based engine"
+4. Click **Apply & Restart**
+
+Docker will now use Hyper-V instead of WSL 2.
+
+---
+
+## Step 5: Start the Privileged Helper Service
+
+On first launch, you may see this:
+
+![Privileged helper service error](04-privileged-helper-service-error.png)
+
+Simply click **"Start service"** and allow admin access when prompted.
+
+---
+
+## Step 6: Docker is Running!
+
+Once everything is set up, you'll see the main Docker Desktop interface:
+
+![Docker working](05-docker-working.png)
+
+**Indicators that Docker is working:**
+- Bottom left shows: **"Engine running"**
+- RAM and CPU stats are visible
+- No error messages
+
+---
+
+## Step 7: Verify in Terminal
+
+Open **Git Bash** and run:
 
 ```bash
 docker --version
+```
+
+Then test with:
+
+```bash
 docker run hello-world
 ```
 
+You should see a "Hello from Docker!" message.
+
 ---
 
-## Troubleshooting
+## Troubleshooting Summary
 
 | Error | Solution |
 |-------|----------|
-| "WSL is too old" | Run the dism.exe commands, restart |
-| "WSL is not installed" | Enable WSL feature first (Step 3), restart |
-| Kernel installer fails | Complete Step 3 and restart before installing kernel |
-| Docker won't start | Ensure WSL 2 is default: `wsl --set-default-version 2` |
+| "WSL is too old" | Try WSL 2 setup, or switch to Hyper-V |
+| "WSL is not installed" | Enable features via `dism.exe` commands, restart |
+| WSL kernel installer fails | Switch to Hyper-V backend |
+| "Privileged helper service not running" | Click "Start service", allow admin access |
+| Docker won't start | Ensure Hyper-V is enabled, restart computer |
+
+---
+
+## WSL 2 vs Hyper-V: When to Use Which
+
+| Choose WSL 2 if... | Choose Hyper-V if... |
+|--------------------|----------------------|
+| Fresh Windows install | WSL 2 setup keeps failing |
+| You need Linux tools alongside Docker | You just want Docker to work |
+| You want better performance | You want reliable setup |
+| You have time to troubleshoot | You need to get started quickly |
+
+**For learning Docker/Zoomcamp:** Either backend works fine. The containers behave the same way.
 
 ---
 
 ## Notes
 
 - Docker Desktop uses ~500MB-1GB of RAM when running
-- You don't need Ubuntu installed - Docker only needs the WSL kernel
-- Install Ubuntu later if needed: `wsl --install -d Ubuntu`
+- Close Docker Desktop when not using it to free up resources
+- You can always switch backends later in Docker Desktop settings
