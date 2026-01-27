@@ -4,7 +4,7 @@ My learning journey through the [DataTalksClub Data Engineering Zoomcamp](https:
 
 ## About This Repo
 
-This repository contains my notes, code, and projects as I learn to become a data engineer.
+This repository contains my notes, code, homework and projects as I learn to become a data engineer.
 
 ## Course Modules
 
