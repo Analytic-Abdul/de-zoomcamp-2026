@@ -2,7 +2,9 @@
 
 ## 1. Status Line Setup
 **What:** Configure Claude Code status line to show useful info
+
 **When:** When you have time to experiment
+
 **How:** Run `/statusline` in Claude Code or ask Claude to help configure it
 
 ---
@@ -29,5 +31,12 @@
 - Search: "Bash string manipulation cheat sheet"
 
 ---
+## 3. Enriched Learning Project with Markdown
+**What:** To build a platform that takes in markdown but enriches it with tooltips for glossary items, highlight text to get definitions and examples.
 
+**When:** After Zoomcamp.
+
+**How:** Using Clode Code to create an open source platform to enable learning
+
+---
 *Delete this file when done!*
